@@ -1,0 +1,35 @@
+{
+  "name": "@clefermy/editorjs-spoiler",
+  "version": "1.1.0",
+  "keywords": [
+    "spoiler",
+    "tool",
+    "plugin",
+    "editor.js",
+    "editorjs"
+  ],
+  "description": "Inline tool for hiding text fragments",
+  "license": "MIT",
+  "repository": "https://github.com/clefermy/editorjs-spoiler",
+  "main": "./dist/bundle.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "build:dev": "webpack --mode development --watch"
+  },
+  "author": {
+    "name": "CleFerMy"
+  },
+  "homepage": "https://github.com/clefermy/editorjs-spoiler#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "raw-loader": "^4.0.1",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+  }
+}

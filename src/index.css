@@ -1,0 +1,14 @@
+.codex-editor .cdx-spoiler {
+    filter: blur(3px);
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.codex-editor .cdx-spoiler:hover {
+    filter: none;
+    cursor: text;
+}
+
+.ce-inline-tool[data-tool="spoiler"] {
+    padding: 0 3px;
+}
